@@ -189,7 +189,7 @@
 </table>
 
 
-### VCC
+### VCC2020
 #### F2F
 <table style="width: 100%; border-collapse: collapse;">
    <tr>
@@ -254,18 +254,18 @@
       <td>RLVCwoSD</td>
   </tr>
    <tr>
-      <td><audio id="audio" controls="" preload="none"> <source id="V1_s" src="samples/VCC2020/f2m/1/TEF1_E20027.wav"> </audio></td>
+      <td><audio id="audio" controls="" preload="none"> <source id="V1_s" src="samples/VCC2020/f2m/1/TEF1_E20004.wav"> </audio></td>
       <td><audio id="audio" controls="" preload="none"> <source id="V1_t" src="samples/VCC2020/f2m/1/SEM2_E10024.wav"> </audio></td>
-      <td><audio id="audio" controls="" preload="none"> <source id="V1_A" src="samples/VCC2020/f2m/1/AdaINVC_TEF1_E20027TOSEM2_E10024.wav"> </audio></td>
-      <td><audio id="audio" controls="" preload="none"> <source id="V1_B" src="samples/VCC2020/f2m/1/AgaINVC_TEF1_E20027TOSEM2_E10024.wav"> </audio></td>
-      <td><audio id="audio" controls="" preload="none"> <source id="V1_C" src="samples/VCC2020/f2m/1/MediumVC_TEF1_E20027TOSEM2_E10024.wav"> </audio></td>
-      <td><audio id="audio" controls="" preload="none"> <source id="V1_D" src="samples/VCC2020/f2m/1/FragmentVC_TEF1_E20027TOSEM2_E10024.wav"> </audio></td>
-      <td><audio id="audio" controls="" preload="none"> <source id="V1_E" src="samples/VCC2020/f2m/1/YourTTS_TEF1_E20027TOSEM2_E10024.wav"> </audio></td>
-      <td><audio id="audio" controls="" preload="none"> <source id="V1_F" src="samples/VCC2020/f2m/1/DiffVC_TEF1_E20027TOSEM2_E10024.wav"> </audio></td>
-      <td><audio id="audio" controls="" preload="none"> <source id="V1_G" src="samples/VCC2020/f2m/1/RLVCwAdaIN_TEF1_E20027TOSEM2_E10024.wav"> </audio></td>
-      <td><audio id="audio" controls="" preload="none"> <source id="V1_H" src="samples/VCC2020/f2m/1/RLVCwCAIN_TEF1_E20027TOSEM2_E10024.wav"> </audio></td>
-      <td><audio id="audio" controls="" preload="none"> <source id="V1_I" src="samples/VCC2020/f2m/1/RLVCwoSCD_TEF1_E20027TOSEM2_E10024.wav"> </audio></td>
-      <td><audio id="audio" controls="" preload="none"> <source id="V1_J" src="samples/VCC2020/f2m/1/RLVCwoSD_TEF1_E20027TOSEM2_E10024.wav"> </audio></td>
+      <td><audio id="audio" controls="" preload="none"> <source id="V1_A" src="samples/VCC2020/f2m/1/AdaINVC_TEF1_E20004TOSEM2_E10024.wav"> </audio></td>
+      <td><audio id="audio" controls="" preload="none"> <source id="V1_B" src="samples/VCC2020/f2m/1/AgaINVC_TEF1_E20004TOSEM2_E10024.wav"> </audio></td>
+      <td><audio id="audio" controls="" preload="none"> <source id="V1_C" src="samples/VCC2020/f2m/1/MediumVC_TEF1_E20004TOSEM2_E10024.wav"> </audio></td>
+      <td><audio id="audio" controls="" preload="none"> <source id="V1_D" src="samples/VCC2020/f2m/1/FragmentVC_TEF1_E20004TOSEM2_E10024.wav"> </audio></td>
+      <td><audio id="audio" controls="" preload="none"> <source id="V1_E" src="samples/VCC2020/f2m/1/YourTTS_TEF1_E20004TOSEM2_E10024.wav"> </audio></td>
+      <td><audio id="audio" controls="" preload="none"> <source id="V1_F" src="samples/VCC2020/f2m/1/DiffVC_TEF1_E20004TOSEM2_E10024.wav"> </audio></td>
+      <td><audio id="audio" controls="" preload="none"> <source id="V1_G" src="samples/VCC2020/f2m/1/RLVCwAdaIN_TEF1_E20004TOSEM2_E10024.wav"> </audio></td>
+      <td><audio id="audio" controls="" preload="none"> <source id="V1_H" src="samples/VCC2020/f2m/1/RLVCwCAIN_TEF1_E20004TOSEM2_E10024.wav"> </audio></td>
+      <td><audio id="audio" controls="" preload="none"> <source id="V1_I" src="samples/VCC2020/f2m/1/RLVCwoSCD_TEF1_E20004TOSEM2_E10024.wav"> </audio></td>
+      <td><audio id="audio" controls="" preload="none"> <source id="V1_J" src="samples/VCC2020/f2m/1/RLVCwoSD_TEF1_E20004TOSEM2_E10024.wav"> </audio></td>
    </tr>
   
   <tr>
