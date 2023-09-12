@@ -1,0 +1,47 @@
+###########################################################
+#                FEATURE EXTRACTION SETTING               #
+###########################################################
+
+test_wav_dir: "./test_data/FourDataSample/"
+label_clip_mel_pkl: "./En167_figure_label_mel_map.pkl"
+out_dir: "./output/Model20230904/base_CAIN_16_gan_fake0904"
+
+local_rank: 0
+rec_rate: 20
+ge2e_rate: 0
+sim_rate: 5
+
+total_steps: 2000000
+schedule_steps: 2000000
+save_steps: 100000
+eval_steps: 100000
+adv_steps: 10
+log_steps: 400
+warmup_steps: 1000
+batch_size: 10
+utters_num: 10
+
+resume: False
+
+######################################  lr
+learning_rate: 0.0001
+learning_rate_min: 0.00001
+d_learning_rate: 0.0001
+d_learning_rate_min: 0.00001
+weight_decay: 0.00015
+adam_b1: 0.8
+adam_b2: 0.99
+lr_decay: 0.995
+########################################## mel feature ##########################
+
+num_mels: 80
+num_freq: 1025
+n_fft: 1024
+hop_size: 256
+win_size: 1024
+sampling_rate: 22050
+fmin: 0
+fmax: 8000
+num_workers: 1
+
+

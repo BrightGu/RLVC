@@ -1,0 +1,19 @@
+##########################################
+test_wav_dir: "./output/Result_FourSample/base_CAIN_16_gan_shows/voice/"
+out_dir: "./SAMPLE_DATA/base_CAIN_36_gan_shows/voice/"
+resume_path: "./output/model/base_CAIN_36_gan/2023_04_09_11_33_04/model/checkpoint.pt"
+resume: True
+local_rank: 1
+
+########################################## MEL-FEATURE
+num_mels: 80
+num_freq: 1025
+n_fft: 1024
+hop_size: 256
+win_size: 1024
+sampling_rate: 22050
+fmin: 0
+fmax: 8000
+num_workers: 1
+
+
