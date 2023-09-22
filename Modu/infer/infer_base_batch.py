@@ -45,8 +45,8 @@ class Solver():
 		checkpoint = torch.load(checkpoint_file, map_location='cpu')
 		self.Generator.load_state_dict(checkpoint['Generator'])
 
-	def infer(self,wav_dir,out_dir):
-		test_data_loader = self.get_test_data_loaders(wav_dir,out_dir)
+	def infer(self):
+		test_data_loader = self.get_test_data_loaders(self.config["test_wav_dir"],self.config["out_dir"])
 		self.Generator.eval()
 		mel_npy_file_list=[]
 		with torch.no_grad():
@@ -71,16 +71,10 @@ def setup_seed(seed):
 	torch.backends.cudnn.deterministic = True
 	
 if __name__ == '__main__':
-	print("【Solver UnetVC ")
+	print("【Solver RLVC ")
 	cudnn.benchmark = True
 	config_path = r"./Modu/infer/infer_config.yaml"
 	with open(config_path) as f:
 		config = yaml.load(f, Loader=yaml.Loader)
-
-	config["resume_path"] = "./compress/compress_base3_2_128/2022_07_28_12_15_13/model/checkpoint-399999.pt"
 	solver = Solver(config)
-
-	test_wav_dir = ".Aishell_sample22050/"
-	out_dir = "./Aishell_2_sample22050_40/"
-	solver.infer(test_wav_dir, out_dir)
-
+	solver.infer()

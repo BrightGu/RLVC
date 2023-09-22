@@ -117,8 +117,7 @@ def get_test_dataset_filelist(wavs_dir):
 
 
 out_dir = r"./datasets/Data/"
-# train_wav_dir = r"/data/gyw_data/workspace/audio_datasets/VCTK-Corpus/WAV22050/wav22050/"
-train_wav_dir = r"./vctk20_44100/"
+train_wav_dir = r"./vctk/"
 
 def get_hifi_mels(config):
     figure_wavs_map = get_dataset_filelist(train_wav_dir)
@@ -145,11 +144,11 @@ def get_hifi_mels(config):
                 print("filename:", filename)
         mel_label_map[figure] = mel_label_list
 
-    with open(os.path.join(out_dir, 'figure_label_mel_map29.pkl'), 'wb') as handle:
+    with open(os.path.join(out_dir, 'figure_label_mel_map.pkl'), 'wb') as handle:
         pickle.dump(mel_label_map, handle)
 
 if __name__ == '__main__':
-    config_path = r"./hifi_config.yaml"
+    config_path = r"./config.yaml"
     with open(config_path) as f:
         config = yaml.load(f, Loader=yaml.Loader)
     get_hifi_mels(config)

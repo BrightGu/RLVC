@@ -3,8 +3,8 @@
 ###########################################################
 
 test_wav_dir: "./test_data/FourDataSample/"
-label_clip_mel_pkl: "./En167_figure_label_mel_map.pkl"
-out_dir: "./output/Model20230904/base_CAIN_16_gan_fake0904"
+label_clip_mel_pkl: "./figure_label_mel_map.pkl"
+out_dir: "./output/base_CAIN_16"
 
 local_rank: 0
 rec_rate: 20
