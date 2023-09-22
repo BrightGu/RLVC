@@ -5,6 +5,7 @@ For the audio samples, please refer to our [demo page](https://brightgu.github.i
 
 ### Envs
 python=3.7+
+
 You can install the dependencies with
 ```bash
 pip install -r requirements.txt
@@ -18,7 +19,7 @@ You can download the [pretrained model](https://drive.google.com/file/d/1FDBpL0x
 ```bash
 python ./Modu/infer/infer_base_batch.py
 ```
-Or you can access infer_samples.py for the source and target speeches specified by yourself.
+Or you can access "./Modu/infer_samples.py" for the source and target speeches specified by yourself.
 ### Train from scratch
 
 ####  Preprocessing
